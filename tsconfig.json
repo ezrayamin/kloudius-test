@@ -5,8 +5,14 @@
     "ignoreDeprecations": "6.0",
     "baseUrl": "." ,
     "paths": {
+      "@context/*": [
+        "src/context/*"
+      ],
       "@components/*": [
         "src/components/*"
+      ],
+      "@navigations/*": [
+        "src/navigations/*"
       ],
       "@screens/*": [
         "src/screens/*"
